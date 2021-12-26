@@ -81,7 +81,7 @@ nav .logo img{
 }
 
 .image-slide img{
-    width: 100%;
+    width: 120%;
     height: 100%;
     /* border: 2px dotted red; */
     object-fit: cover;
