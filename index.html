@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+<title>VMS TradeLink</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./VMS Logo.png" alt="">
+        </div>
+
+        <ul class="navlinks">
+            <li class="navitem"><a href="#">HOME</a></li>
+            <li class="navitem"><a href="#">ABOUT US</a></li>
+            <li class="navitem"><a href="">PRODUCT</a></li>
+            <li class="navitem"><a href="">GALLARY</a></li>
+            <li class="navitem"><a href="">CONTACT</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <div class="bar">
+                <i id="bar" class="fas fa-bars"></i>
+            </div>
+            <div class="close display-none">
+                <i id="close" class="fas fa-close"></i>
+            </div>  
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+
+        <div class="image-slide">
+            <img src="./3k3.png" id="lastClone" alt="">
+            <img src="./3k1.png" alt="">
+            <img src="./3k2.png" alt="">
+            <img src="./3k3.png" alt="">
+            <img src="./3k1.png" id="firstClone" alt="">
+        </div>
+        <div class="overlay"></div>
+
+       
+    </div>
+    <i id="prevBtn" class="fas fa-chevron-right"></i>
+    <i  id="nextBtn" class="fas fa-chevron-left"></i>
+
+    <!-- <button id="prevBtn">prev</button>
+    <button id="nextBtn">next</button> -->
+
+    <div class="hero">
+        <div class="hero-text">
+            <h2><span class="cta1">The</span></h2>
+            <h2><span class="cta2">Look</span></h2>
+        </div>
+
+        <div class="hero-text">
+            <h2><span class="cta3">You</span></h2>
+            <h2><span class="cta4">Need...</span></h2>
+        </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
